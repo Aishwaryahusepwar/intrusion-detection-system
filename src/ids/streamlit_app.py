@@ -1,5 +1,12 @@
-import plotly.express as px
 import streamlit as st
+
+st.write("Step 1")
+
+import plotly
+st.write("Step 2")
+
+import plotly.express as px
+st.write("Step 3")
 
 from config import STATIC_DIR
 from data import load_traffic_file, validate_features
